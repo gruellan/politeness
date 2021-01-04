@@ -108,11 +108,11 @@ if __name__ == "__main__":
     for doc in TEST_DOCUMENTS:
 
         probs = score(doc)
-
         print "===================="
         print "Text: ", doc['text']
         print "\tP(polite) = %.3f" % probs['polite']
         print "\tP(impolite) = %.3f" % probs['impolite']
+        print"\tReal Score = %.3f" % doc['score']
         print "\n"
 
 

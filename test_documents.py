@@ -69,7 +69,16 @@ TEST_DOCUMENTS = [
             ["advmod(n't-3, why-1)", "cop(n't-3, was-2)", "root(ROOT-0, n't-3)", "nsubj(moved-5, it-4)", "dep(n't-3, moved-5)"]
         ],
         "score": -0.9
-    }
+    },
+    {
+        "text": "I hate you, idiot",
+        "sentences": [
+            "I hate you, idiot"
+        ],
+        "parses": [
+        ],
+        "score": -1.9
+    },
 ]
 
 
